@@ -289,6 +289,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114779152422578414, guid: dac26cfd90c41fe498ff2f89f4b2cc8c,
+        type: 2}
+      propertyPath: feet
+      value: 
+      objectReference: {fileID: 2076047780}
+    - target: {fileID: 114779152422578414, guid: dac26cfd90c41fe498ff2f89f4b2cc8c,
+        type: 2}
+      propertyPath: layerMask.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dac26cfd90c41fe498ff2f89f4b2cc8c, type: 2}
   m_IsPrefabParent: 0
@@ -1771,6 +1781,11 @@ Transform:
   m_Father: {fileID: 77646273}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2076047780 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1806655619607636, guid: dac26cfd90c41fe498ff2f89f4b2cc8c,
+    type: 2}
+  m_PrefabInternal: {fileID: 146973804}
 --- !u!1 &2103067388
 GameObject:
   m_ObjectHideFlags: 0

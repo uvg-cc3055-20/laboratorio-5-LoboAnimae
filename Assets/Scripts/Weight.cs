@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+	/*
+	*@author Andres Quan Littow 17652
+	*/ 
 public class Weight : MonoBehaviour {
 	
 	//Creates the line in the visible plane
